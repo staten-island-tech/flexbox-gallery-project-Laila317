@@ -39,7 +39,13 @@ body{
     width: 28%;
     background-repeat: no-repeat;
     box-shadow: 5px 5px 5px black;
+    transition: all 0.3s;
 }
+
+.food1:hover{
+    transform: scale(0.7);
+}
+
 
 
 
@@ -55,6 +61,11 @@ body{
     width: 28%;
     background-repeat: no-repeat;
     box-shadow: 5px 5px 5px black;
+    transition: all 0.3s;
+}
+
+.food2:hover{
+    transform: scale(0.7);
 }
 
 .food3{
