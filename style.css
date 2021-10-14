@@ -81,6 +81,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 5px black;
+    transition: all 0.3s;
+}
+
+.food3:hover{
+    transform: scale(0.7);
 }
 
 
@@ -103,6 +108,11 @@ body{
     width: 28%;
     background-repeat: no-repeat;
     box-shadow: 5px 5px 5px black;
+    transition: all 0.3s;
+}
+
+.food4:hover{
+    transform: scale(0.7);
 }
 
 .food5{
@@ -118,6 +128,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 5px black;
+    transition: all 0.3s;
+}
+
+.food5:hover{
+    transform: scale(0.7);
 }
 
 .food6{
@@ -132,6 +147,11 @@ body{
     width: 28%;
     background-repeat: no-repeat;
     box-shadow: 5px 5px 5px black;
+    transition: all 0.3s;
+}
+
+.food6:hover{
+    transform: scale(0.7);
 }
 
 .flex-container3{
@@ -153,6 +173,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 5px black;
+    transition: all 0.3s;
+}
+
+.food7:hover{
+    transform: scale(0.7);
 }
 
 .food8{
@@ -168,6 +193,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 5px black;
+    transition: all 0.3s;
+}
+
+.food8:hover{
+    transform: scale(0.7);
 }
 
 .food9{
@@ -183,5 +213,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 5px black;
+    transition: all 0.3s;
   
+}
+
+.food9:hover{
 }
