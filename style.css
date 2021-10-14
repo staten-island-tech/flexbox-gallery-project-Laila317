@@ -12,10 +12,14 @@ body{
     
 }
 
+
+
 .head{
     text-align: center;
     font-size: 5rem;
 }
+
+
 
 .flex-container1{
     display: flex;
