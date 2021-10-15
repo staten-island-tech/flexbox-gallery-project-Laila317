@@ -47,7 +47,7 @@ body{
 }
 
 .food1:hover{
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
 
 
@@ -69,7 +69,7 @@ body{
 }
 
 .food2:hover{
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
 
 .food3{
@@ -89,7 +89,7 @@ body{
 }
 
 .food3:hover{
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
 
 
@@ -116,7 +116,7 @@ body{
 }
 
 .food4:hover{
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
 
 .food5{
@@ -136,7 +136,7 @@ body{
 }
 
 .food5:hover{
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
 
 .food6{
@@ -155,7 +155,7 @@ body{
 }
 
 .food6:hover{
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
 
 .flex-container3{
@@ -181,7 +181,7 @@ body{
 }
 
 .food7:hover{
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
 
 .food8{
@@ -201,7 +201,7 @@ body{
 }
 
 .food8:hover{
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
 
 .food9{
@@ -222,5 +222,5 @@ body{
 }
 
 .food9:hover{
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
