@@ -13,6 +13,18 @@ body{
 }
 
 
+@media (min-width: 600px) {
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 800px){
+    p {
+        font-size: 1.25rem;
+    }
+}
+
 
 .head{
     text-align: center;
