@@ -12,6 +12,12 @@ body{
     
 }
 
+@media only screen and (max-width: 300px) {
+    body {
+      background-color: rgb(97, 105, 143);
+    }
+  }
+
 @keyframes example {
     0%   {background-color:wheat; left:0px; top:0px;}
     25%  {background-color:wheat; left:20px; top:0px;}
