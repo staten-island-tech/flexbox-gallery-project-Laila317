@@ -13,17 +13,20 @@ body{
 }
 
 
-  @media only screen and (max-width: 200px) {
-    body {
-      background-color: rgb(226, 170, 48);
-    }
-  }
-
-  @media screen and (max-width: 600px) {
+@media screen and (min-width: 700px) {
     .column {
       width: 100%;
     }
   }
+
+
+  @media screen and (max-width: 3000px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+
 
 @keyframes example {
     0%   {background-color:wheat; left:0px; top:0px;}
