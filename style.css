@@ -15,7 +15,7 @@ body{
 
   @media only screen and (max-width: 200px) {
     body {
-      background-color: lightblue;
+      background-color: rgb(226, 170, 48);
     }
   }
 
