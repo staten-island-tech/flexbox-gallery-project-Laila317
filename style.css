@@ -13,22 +13,10 @@ body{
 }
 
 
-@media screen and (min-width: 700px) {
-    .column {
-      width: 100%;
-    }
-  }
-
-
-  @media screen and (max-width: 3000px) {
-    .column {
-      width: 50%;
-    }
-  }
 
 
 
-@keyframes example {
+@keyframes animation {
     0%   {background-color:wheat; left:0px; top:0px;}
     25%  {background-color:wheat; left:20px; top:0px;}
     50%  {background-color:wheat; left:20px; top:20px;}
@@ -42,7 +30,7 @@ body{
     height: 100px;
     position: relative;
     background-color: wheat;
-    animation-name: example;
+    animation-name: animation;
     animation-duration: 1s;
     animation-iteration-count: 3;
   }
@@ -59,12 +47,12 @@ body{
     justify-content: space-around;
     margin-top: 50px;
     margin-block-end: 50px;
+    flex-wrap: wrap;
 
    
 
 }
-
-.food1{
+.food{
     width: 50vw;
     height: 70vh;
     border:8px solid wheat;
@@ -72,11 +60,16 @@ body{
     border-left-width: 20px;
     border-right-width: 20px;
     border-bottom-width: 20px;
-    background-image: url(image/food1.jpg);
     width: 28%;
     background-repeat: no-repeat;
     box-shadow: 0 0 30px black;
     transition: all 0.3s;
+    margin: 2em;
+    background-size: cover;
+}
+.food1{
+
+    background-image: url(image/food1.jpg);
 }
 
 .food1:hover{
@@ -87,18 +80,7 @@ body{
 
 
 .food2{
-    width: 50vw;
-    height: 70vh;
-    border:8px solid wheat;
-    border-top-width: 70px;
-    border-left-width: 20px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
     background-image: url(image/food2.jpg);
-    width: 28%;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 30px black;
-    transition: all 0.3s;
 }
 
 .food2:hover{
@@ -106,19 +88,7 @@ body{
 }
 
 .food3{
-    width: 50vw;
-    height: 70vh;
-    border:8px solid wheat;
-    border-top-width: 70px;
-    border-left-width: 20px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
     background-image: url(image/food3.jpg);
-    width: 28%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 30px black;
-    transition: all 0.3s;
 }
 
 .food3:hover{
@@ -134,18 +104,8 @@ body{
 }
 
 .food4{
-    width: 50vw;
-    height: 70vh;
-    border:8px solid wheat;
-    border-top-width: 70px;
-    border-left-width: 20px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
+
     background-image: url(image/food4.jpg);
-    width: 28%;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 30px black;
-    transition: all 0.3s;
 }
 
 .food4:hover{
@@ -153,19 +113,7 @@ body{
 }
 
 .food5{
-    width: 50vw;
-    height: 70vh;
-    border:8px solid wheat;
-    border-top-width: 70px;
-    border-left-width: 20px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
     background-image: url(image/food5.jpg);
-    width: 28%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 30px black;
-    transition: all 0.3s;
 }
 
 .food5:hover{
@@ -173,18 +121,7 @@ body{
 }
 
 .food6{
-    width: 50vw;
-    height: 70vh;
-    border:8px solid wheat;
-    border-top-width: 70px;
-    border-left-width: 20px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
     background-image: url(image/food6.jpg);
-    width: 28%;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 30px black;
-    transition: all 0.3s;
 }
 
 .food6:hover{
@@ -198,19 +135,7 @@ body{
 }
 
 .food7{
-    width: 50vw;
-    height: 70vh;
-    border:8px solid wheat;
-    border-top-width: 70px;
-    border-left-width: 20px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
     background-image: url(image/food7.jpg);
-    width: 28%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 30px black;
-    transition: all 0.3s;
 }
 
 .food7:hover{
@@ -218,19 +143,7 @@ body{
 }
 
 .food8{
-    width: 50vw;
-    height: 70vh;
-    border:8px solid wheat;
-    border-top-width: 70px;
-    border-left-width: 20px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
     background-image: url(image/food8.jpg);
-    width: 28%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 30px black;
-    transition: all 0.3s;
 }
 
 .food8:hover{
@@ -238,22 +151,22 @@ body{
 }
 
 .food9{
-    width: 50vw;
-    height: 70vh;
-    border:8px solid wheat;
-    border-top-width: 70px;
-    border-left-width: 20px;
-    border-right-width: 20px;
-    border-bottom-width: 20px;
-    background-image: url(image/food9.jpg);
-    width: 28%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0 30px black;
-    transition: all 0.3s;
-  
+    background-image: url(image/food9.jpg); 
 }
 
 .food9:hover{
     transform: scale(0.97);
 }
+
+@media screen and (max-width:800px){
+    .food{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .food{
+        width: 100%;
+    }
+}
+
