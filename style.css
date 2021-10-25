@@ -160,13 +160,17 @@ body{
 
 @media screen and (max-width:800px){
     .food{
-        width: 40%;
+        width: 50%;
     }
 }
 
+<<<<<<< Updated upstream
 @media screen and (max-width:540px){
+=======
+@media screen and (max-width:320px){
+>>>>>>> Stashed changes
     .food{
-        width: 100%;
+        width: 33.3333%;
     }
 }
 
