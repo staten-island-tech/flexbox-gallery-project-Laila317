@@ -84,7 +84,9 @@ body{
 }
 
 .food2:hover{
-    transform: scale(0.97);
+    transform: scale(1.1);
+    outline: 5px solid black;
+    z-index: 3;
 }
 
 .food3{
@@ -158,17 +160,14 @@ body{
     transform: scale(0.97);
 }
 
+
 @media screen and (max-width:800px){
     .food{
         width: 50%;
     }
 }
 
-<<<<<<< Updated upstream
 @media screen and (max-width:540px){
-=======
-@media screen and (max-width:320px){
->>>>>>> Stashed changes
     .food{
         width: 33.3333%;
     }
