@@ -164,9 +164,10 @@ body{
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:540px){
     .food{
         width: 100%;
     }
 }
+
 
