@@ -16,13 +16,8 @@ body{
 
 
 
-@keyframes animation {
-    0%   {background-color:wheat; left:0px; top:0px;}
-    25%  {background-color:wheat; left:20px; top:0px;}
-    50%  {background-color:wheat; left:20px; top:20px;}
-    75%  {background-color:wheat; left:0px; top:20px;}
-    100% {background-color:wheat; left:0px; top:0px;}
-  }
+
+  
   
 
   div{
